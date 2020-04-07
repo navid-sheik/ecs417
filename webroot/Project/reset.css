@@ -1,0 +1,16 @@
+html, body, div, span,
+h1, h2,h3, p, blockquote, pre,
+a, img,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside,
+figure, figcaption, footer, header,
+ nav, output, section
+{
+  vertical-align: baseline;
+  font-size: 100%
+  padding : 0;
+  margin: 0;
+  border: 0;
+}

@@ -1,0 +1,480 @@
+*
+{
+  vertical-align: baseline;
+  font-size: 100%
+  padding : 0;
+  margin: 0;
+  border: 0;
+}
+
+body
+{
+  /*background: 	#F0F0F0;*/
+}
+header
+{
+  width: 100%;
+  height: 200px;
+
+  display: block;
+  background: url(headerblog.png) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+div#main
+{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  /*background-color: grey;*/
+}
+div#left
+{
+
+  width: 75%;
+  /*background-color: white;*/
+}
+
+
+article#postsContainer
+{
+  width: 75%;
+
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 5px;
+
+
+}
+
+/* ----------------__Drop Down --------------------*/
+#sectionContainer
+{
+  width: 90%;
+  margin: 10px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content : space-between;
+
+}
+
+
+.dropdownDiv {
+
+  display: inline-block;
+
+}
+.dropDownButton {
+  background-color: white;
+  color:black;
+  padding: 4px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 157px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button{
+  color: black;
+  padding: 12px 16px;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content button:hover {background-color: #f1f1f1}
+
+.dropdownDiv:hover .dropdown-content {
+  display: block;
+}
+
+.dropdownDiv:hover .dropDownButton {
+  background-color: #3e8e41;
+}
+/* ----------------POST SECTIONS --------------------*/
+section.blogpost
+{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+
+  background-color: white;
+  color: black;
+  margin: auto;
+  margin-bottom: 30px;
+  border : 2px solid #D3D3D3;
+
+}
+
+div.titleEntryPost
+{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  height: 37.5px;
+  box-sizing: border-box;
+  padding: 3px;
+
+
+}
+div.titlePostContent
+{
+
+  width: 95%;
+
+}
+div.deletePost
+{
+
+  width: 5%;
+}
+div.deletePost button
+{
+  background-color: transparent;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+div.deletePost button:hover
+{
+
+  color: red;
+}
+
+div.deletePost button:focus
+{
+  outline: 0;
+}
+
+div.contentEntryPost
+{
+  height: 162.5px;
+  box-sizing: border-box;
+  padding: 3px;
+  overflow:auto;
+}
+
+div.dateEntryPost
+{
+
+  height: 25px;
+  box-sizing: border-box;
+  padding: 3px;
+  text-align: right;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+
+/*Icon */
+
+
+div.iconDipslay
+{
+  display: inline-block;
+}
+
+div.commentSectionPost
+{
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+
+}
+div.buttonPostInteraction
+{
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+
+
+}
+div.buttonPostInteraction button
+{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+
+
+
+}
+
+
+
+
+/* ----------------ADD COMMENT FORM--------------------*/
+
+div.writeCommentForm
+{
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+  margin-top: 5px;
+
+}
+
+
+div.writeCommentForm input[type=text]
+{
+  height: 30px;
+  width: 80%;
+
+  float: left;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+
+}
+
+div.writeCommentForm input[type=submit]
+
+{
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+  margin: 0px;
+  border-top: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+  box-sizing: border-box;
+
+
+}
+
+
+/***************Comments part**************/
+
+div.commentsOtherUsers
+{
+  margin-top: 20px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+div.individualComment
+{
+  border-bottom: 5px solid black;
+  background-color: 	#E8E8E8;
+}
+div.mainCommentPart
+{
+
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+div.usernameCommenter
+{
+
+  height: 100%;
+  width: 15%;
+
+}
+div.contentComment
+{
+
+  height: 100%;
+  width: 82%;
+  font-style: oblique;
+
+
+}
+div.deleteComment button
+{
+  background-color: transparent;
+}
+div.deleteComment button:focus
+{
+  outline: 0;
+
+
+}
+div.deleteComment button:hover
+{
+  background-color: black;
+  color: white;
+
+}
+div.dateComment
+{
+  font-size: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 3px;
+
+}
+
+div#right
+{
+  width: 25%;
+  /*background-color: blue;*/
+}
+
+aside.side
+{
+  display: block;
+  height: 400px;
+  background-color: 	#F5F5F5;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px ;
+  box-sizing: border-box;
+  padding: 5px;
+  position: relative;
+  overflow: auto;
+}
+aside.welcomeUserSide
+{
+  display: block;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px ;
+  box-sizing: border-box;
+  padding: 5px;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+div#titleAboutMeBlog
+{
+  background-color: black;
+  color: white;
+  padding: 3px;
+  text-align: center;
+}
+div#profileImageBlog
+{
+
+  height: 150px;
+  text-align: center;
+  margin : 7px 0px;;
+}
+div#profileImageBlog img
+{
+  display: block;
+  margin: auto;
+}
+div#profileImageBlog figcaption
+{
+  margin: 2px;
+  text-decoration: underline;
+
+}
+
+
+div#shortParagraphBlog
+{
+
+  text-align: justify;
+}
+div#extraInfoBlog
+{
+
+  margin-top: 10px;
+
+}
+div#extraInfoBlog p
+{
+  padding: 2px;
+
+}
+aside.buttonContainer
+{
+  display: block;
+  height: 50px;
+  /*background-color: grey;*/
+  width: 90%;
+  margin: auto;
+  margin-top: 20px ;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+}
+
+aside.buttonContainer button
+{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: inherit;
+
+
+}
+
+
+
+
+footer
+{
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  header
+  {
+    height: 80px;
+  }
+  div#main
+  {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  div#left
+  {
+    width: 100%;
+  }
+  article#postsContainer
+  {
+    width: 90%;
+  }
+
+  div#right
+  {
+    width: 100%;
+    /*background-color: blue;*/
+  }
+
+}
