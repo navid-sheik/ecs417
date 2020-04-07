@@ -28,8 +28,8 @@ if (isset($_POST["submitLikePost"]) )
          header('Location: viewblog.php');
          exit();
        }else{
-         console.log("Error: " . $insertQuery . "<br>" . $conn->error);
-         header('Location: errorPage.php');
+         echo "Error: " . $insertQuery . "<br>" . $conn->error;
+         //header('Location: errorPage.php');
        }
 
      }

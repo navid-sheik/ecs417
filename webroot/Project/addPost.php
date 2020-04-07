@@ -23,8 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
            }
            else
            {
-              console.log("Error: " . $sql . "<br>" . $conn->error);
-              header('Location: errorPage.php');
+              echo "Error: " . $sql . "<br>" . $conn->error;
+            
            }
     }
   }else{header('Location: index.php');

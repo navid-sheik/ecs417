@@ -70,8 +70,8 @@ if (isset($_POST['login'])){
       }
       else
       {
-        console.log("Error: " . $query . "<br>" . $conn->error);
-        header('Location: errorPage.php');
+        echo "Error: " . $query . "<br>" . $conn->error;
+        //header('Location: errorPage.php');
      }
     }
 

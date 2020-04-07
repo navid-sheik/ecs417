@@ -20,8 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
          if ($result === TRUE)
          {header('Location: viewblog.php');}
          else
-         {   console.log("Error: " . $sql . "<br>" . $conn->error);
-           header('Location: errorPage.php');
+         {   echo "Error: " . $sql . "<br>" . $conn->error;
+           //header('Location: errorPage.php');
          }
 
       }else{ header('Location: login.html'); }
