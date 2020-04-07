@@ -1,8 +1,9 @@
 <?php
 session_start();
 include 'conn.inc.php';
-if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-if (isset($_POST['login'])){
+
+if (isset($_POST['login']))
+{
        $email = $_POST['email'];
        $password =$_POST['password'];
        $email = stripcslashes($email);
@@ -38,11 +39,7 @@ if (isset($_POST['login'])){
         echo "<h1> Invalid Creditials Try Again </h1>";
         exit();
       }
-
-
-
-
-    }
+  }
 
 
 
@@ -66,7 +63,7 @@ if (isset($_POST['login'])){
       $result = $conn->query($query);
       if ($result === TRUE)
       {
-         header("Location: login.html");
+         header("Location: viewblog.php");
       }
       else
       {
@@ -75,10 +72,7 @@ if (isset($_POST['login'])){
      }
     }
 
-}else
-{
-  header('Location: login.html');
-}
+
 
 
 ?>
