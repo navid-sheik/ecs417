@@ -56,7 +56,7 @@ include 'conn.inc.php';
 
 <body>
   <header>
-  
+
   </header>
   <!--***************************Main Part************************-->
   <div id="main">
@@ -248,9 +248,9 @@ include 'conn.inc.php';
                          </div>
                          <div class= 'writeCommentForm'>
                          <form method= 'get' action='interaction.php' name='commentForm'>
-                            <input type='text'  name= 'commentInput' placeholder = 'Add Comment...'>
+                            <input type='text'  name= 'commentInput' placeholder = 'Add Comment...' required>
                             <input  type= 'hidden' name='postIdReference' value = '$postId' >
-                            <input type='submit' name= 'submitComment' value= 'Post' onclick='return checkIsNotEmpty()' >
+                            <input type='submit' name= 'submitComment' value= 'Post'  >
                             </form>
                           </div>
                           <div class = 'commentsOtherUsers' id='sectionComment$postId' style='display : none'>";
