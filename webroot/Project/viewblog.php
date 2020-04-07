@@ -32,13 +32,7 @@ include 'conn.inc.php';
   }
 
 
-  function checkIsNotEmpty() {
-    var commentUser = document.forms["commentForm"]["commentInput"];
-    if ((commentUser.value.length == 0)) {
-      commentUser.style.border = "2px solid #DC143C";
-      return false;
-    }
-  }
+  
 
   function toggleComment(key) {
     var putItHere = "sectionComment" + key;
