@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         header('Location: viewblog.php');
         } else
         {
-          echo "Error deleting record: " . $queryDeletePost . "<br>" . $conn->error);
+          echo "Error deleting record: " . $queryDeletePost . "<br>" . $conn->error;
           //header('Location: errorPage.php');
 
         }
