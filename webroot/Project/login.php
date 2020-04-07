@@ -63,7 +63,9 @@ if (isset($_POST['login']))
       $result = $conn->query($query);
       if ($result === TRUE)
       {
-         header("Location: viewblog.php");
+
+
+         header("Location: login.html");
       }
       else
       {
