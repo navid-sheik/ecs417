@@ -32,7 +32,7 @@ include 'conn.inc.php';
   }
 
 
-  
+
 
   function toggleComment(key) {
     var putItHere = "sectionComment" + key;
@@ -349,10 +349,9 @@ include 'conn.inc.php';
         </div>
 
         <div id="shortParagraphBlog">
-          <p> Having always been involved with technology, helped me realized that I wanted to be part of a
-            company which embraces solving problems. I always strive to achieve the highest standard possible,
-            without wasting time. </p>
-
+          <p> Welcome to my blog. Here I post about the progress of my projects I am working on. I am currently
+            a student studying computer science. I have already built several projects, you can check them out on
+            my portfolio. If you have any question, please don't hesitate to contact me. </p>
         </div>
 
         <div id="extraInfoBlog">
