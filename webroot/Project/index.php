@@ -8,7 +8,7 @@ include 'conn.inc.php';
 <!doctype html>
 
 <head>
-  	<link href="reset.css" type="text/css" rel="stylesheet">
+  <link href="reset.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="index.css" type="text/css">
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1">
