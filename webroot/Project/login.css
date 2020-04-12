@@ -1,4 +1,13 @@
 
+*{
+
+  vertical-align: baseline;
+  font-size: 100%
+  padding : 0;
+  margin: 0;
+  border: 0;
+
+}
 
 body {
 	background: #F0F0F0;

@@ -1,4 +1,11 @@
-
+*
+{
+  vertical-align: baseline;
+  font-size: 100%
+  padding : 0;
+  margin: 0;
+  border: 0;
+}
 article#errorMainFlex {
 	background-color: white;
 	height: 700px;
