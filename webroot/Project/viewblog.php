@@ -9,8 +9,8 @@ include 'conn.inc.php';
 <!doctype html>
 
 <head>
+  <link href="reset.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="viewblog.css" type="text/css">
-  <meta http-equiv="refresh" content="120">
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
