@@ -1,8 +1,10 @@
 <!doctype htlm>
 <head>
 <title>Log in Your Blog</title>
-<meta http-equiv="refresh" content="120">
+
+<link href="reset.css" type="text/css" rel="stylesheet">
 <link href="login.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
 </head>
 
 <body>

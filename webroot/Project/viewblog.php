@@ -86,7 +86,7 @@ include 'conn.inc.php';
             </button>
             <div class="dropdown-content">
               <form method="post">
-                <button type="submit" name="sortByRecent">Recents </button>
+                <button type="submit" name="sortByRecent">Recents</button>
                 <button type="submit" name="sortByOldest">Oldest</button>
               </form>
             </div>

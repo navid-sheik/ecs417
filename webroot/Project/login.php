@@ -24,15 +24,19 @@ if (isset($_POST['login']))
            $_SESSION["admin"] = $usernameLogged;
            $_SESSION["email"] = $email;
            $_SESSION["userId"] = $id;
+           header('Location: addPost.php');
+           exit();
          }else
-        {
-          unset($_SESSION["admin"]);
-          $_SESSION["email"] = $email;
-          $_SESSION["userId"] = $id;
-          $_SESSION["guest"] = $usernameLogged;
-       }
-         header('Location: index.php');
-         exit();
+         {
+            unset($_SESSION["admin"]);
+            $_SESSION["email"] = $email;
+            $_SESSION["userId"] = $id;
+            $_SESSION["guest"] = $usernameLogged;
+
+            header('Location: viewblog.php');
+            exit();
+          }
+
       }
       else
       {
