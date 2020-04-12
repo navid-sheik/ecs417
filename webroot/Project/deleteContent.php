@@ -1,4 +1,5 @@
 <?php
+//This script willallow the main admin to delete the commment  if neccessary
 session_start();
 include 'conn.inc.php';
 $guest = $_SESSION["guest"] ;

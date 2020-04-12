@@ -1,849 +1,663 @@
-
-*{
-
-  vertical-align: baseline;
-  font-size: 100%
-  padding : 0;
-  margin: 0;
-  border: 0;
-
-}
-img
-{
-  max-width: 100%;
- height: auto;
-}
-#mainflexHome
-{
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  /*background-color: grey;*/
+* {
+	vertical-align: baseline;
+	font-size: 100% padding: 0;
+	margin: 0;
+	border: 0;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#mainflexHome {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	/*background-color: grey;*/
+}
 
 /*Element of the main fles : header, main, footer*/
-header
-{
-  height: 40px;
-  width: 100%;
-  /*background-color: yellow;*/
-  display: flex;
-  flex-direction: row;
-
-}
-header #title
-{
-  background-color: black;
-  width: 20%;
-  min-width: 150px;
-  font-size: 1.4em;
-  text-align: center;
-  color: white;
-
-
-
-
-}
-#title span
-{
-  vertical-align: middle;
-  font-family: fantasy;
-
-
-}
-nav
-{
-  /*background-color: grey;*/
-
-  width: 80%;
-  text-align: right;
-  vertical-align:middle;
-}
-nav ul
-{
-  list-style-type: none;
-  background-color: black;
-  color: white;
-  height: 100%;
-  overflow: hidden;
-
-
-}
-nav ul li
-{
-  display: inline-block;
-  margin: 8px 0px;
-
+header {
+	height: 40px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: row;
 }
 
-nav ul li a
-{
-  padding: 14px 10px;
-  text-decoration: none;
-  color: white;
-}
-nav ul li a:hover
-{
-  background-color: grey;;
-
+header #title {
+	background-color: black;
+	width: 20%;
+	min-width: 150px;
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
 }
 
-#horizontalMenu
-{
-  width: 50%;
-  /*background-color: white;*/
-
+#title span {
+	vertical-align: middle;
+	font-family: fantasy;
 }
 
-#introduction
-{
-  height: auto;
-  /*background-color: grey;*/
+nav {
+	/*background-color: grey;*/
+	width: 80%;
+	text-align: right;
+	vertical-align: middle;
 }
 
-
-#introContainer
-{
-
-  display: block;
-  margin: 25px auto;
-  height: 300px;
-  width: 80%;
-  min-width: 480px;
-  display: flex;
-  direction: row;
-
-
-
+nav ul {
+	list-style-type: none;
+	background-color: black;
+	color: white;
+	height: 100%;
+	overflow: hidden;
 }
 
-div#textIntro
-{
-  width: 50%;
-  height: 100%;
-  /*background-color: white;*/
-  text-align: left;
-
-
+nav ul li {
+	display: inline-block;
+	margin: 8px 0px;
 }
 
-div#textIntroContent
-{
-  width: 90%;
-  height: 220px;
-  margin : 40px auto;
-  /*background-color: red;*/
-  box-sizing: border-box;
-  padding: 5px;
-  overflow: auto;
-
-
-
-
+nav ul li a {
+	padding: 14px 10px;
+	text-decoration: none;
+	color: white;
 }
 
-div#textIntroContent h3
-{
-  font-size: 3vw;
-  font-weight: 500;
-
-}
-div#textIntroContent h3::after
-{
-  content: " ";
-  height: 2px;
-  width: 25vw;
-  background : black;
-  display: inline-block;
-  margin-left: 1%;
-
-
+nav ul li a:hover {
+	background-color: grey;
+	;
 }
 
-div#textIntroContent h1
-{
-  font-size: 5.5vw;
-
-
-}
-div#textIntroContent h2
-{
-  font-size: 1.5vw;
+#horizontalMenu {
+	width: 50%;
+	/*background-color: white;*/
 }
 
-
-div#buttonDiv
-{
-  width :100%;
-
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  direction: column;
-  justify-content: flex-start;
-  margin-top: 10px;
-
-  /*background-color: blue;*/
-
-
-}
-div.individualButtonContainer button
-{
-  width: 75px;
-  height: 30px;
-  border-radius: 4px;
-  background-color: black;
-  color: white;
-  margin-left: 5px;
-
-
-}
-div.individualButtonContainer button a
-{
-  text-decoration: none;
-  color: white;
+#introduction {
+	height: auto;
+	/*background-color: grey;*/
 }
 
-div.individualButtonContainer button a:hover
-{
-
-  color: black;
-}
-div.individualButtonContainer button:hover
-{
-  border : 1px solid black;
-  background-color: white;
-  color: black ;
-
-
-}
-div#imageIntro
-{
-  width: 50%;
-  height: 100%;
-  /*background-color: yellow;*/
-}
-div#imageIntro img
-{
-  display: block;
-  margin: auto;
-
+#introContainer {
+	display: block;
+	margin: 25px auto;
+	height: 300px;
+	width: 80%;
+	min-width: 480px;
+	display: flex;
+	direction: row;
 }
 
-
-  /*Skills & Achivementns*/
-
-div#titleSkillSection, div#titleAchivementSection
-{
-  background-color: black;
-  color: white;
-  padding: 3px;
-  text-align: center;
-}
-div#skillsContainer
-{
-  width: 100%;
-  display: block;
-  /*background-color: blue;*/
+div#textIntro {
+	width: 50%;
+	height: 100%;
+	/*background-color: white;*/
+	text-align: left;
 }
 
-
-div#skillsText
-{
-  /*background-color: red;*/
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-div#skillsText span
-{
-
-  font-style: italic;
-
-}
-div#skillsText ul.skillsList
-{
-
-  list-style-type:  none;
-  padding-left: 0;
-}
-div#skillsText ul.skillsList li
-{
-
-  font-weight: bold;
-}
-div#skillsText ul.descriptiveList
-{
-
-  list-style-type: none;
-  padding-left: 15px;
-}
-div#skillsText ul.descriptiveList li
-{
-
-  font-weight: normal;
-}
-div#personalSkills
-{
-  width: 50%;
-  /*background-color: purple;*/
-  box-sizing: border-box;
-  padding: 20px;
-  border-right: 1px solid black;
-}
-div#technicalSkills
-{
-  width: 50%;
-  /*background-color: yellow;*/
-  box-sizing: border-box;
-  padding: 20px;
-  border-left: 1px solid black;
+div#textIntroContent {
+	width: 90%;
+	height: 220px;
+	margin: 40px auto;
+	/*background-color: red;*/
+	box-sizing: border-box;
+	padding: 5px;
+	overflow: auto;
 }
 
-div#skillsBadge img
-{
-  display: block;
-
-  margin: auto;
-
+div#textIntroContent h3 {
+	font-size: 3vw;
+	font-weight: 500;
 }
 
-div#achivemetsContainer
-{
-  width: 100%;
-  /*background-color: yellow;*/
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
+div#textIntroContent h3::after {
+	content: " ";
+	height: 2px;
+	width: 25vw;
+	background: black;
+	display: inline-block;
+	margin-left: 1%;
+}
 
+div#textIntroContent h1 {
+	font-size: 5.5vw;
+}
 
+div#textIntroContent h2 {
+	font-size: 1.5vw;
+}
+
+div#buttonDiv {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	direction: column;
+	justify-content: flex-start;
+	margin-top: 10px;
+	/*background-color: blue;*/
+}
+
+div.individualButtonContainer button {
+	width: 75px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: black;
+	color: white;
+	margin-left: 5px;
+}
+
+div.individualButtonContainer button a {
+	text-decoration: none;
+	color: white;
+}
+
+div.individualButtonContainer button a:hover {
+	color: black;
+}
+
+div.individualButtonContainer button:hover {
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+div#imageIntro {
+	width: 50%;
+	height: 100%;
+	/*background-color: yellow;*/
+}
+
+div#imageIntro img {
+	display: block;
+	margin: auto;
+}
+
+/*Skills & Achivementns*/
+div#titleSkillSection, div#titleAchivementSection {
+	background-color: black;
+	color: white;
+	padding: 3px;
+	text-align: center;
+}
+
+div#skillsContainer {
+	width: 100%;
+	display: block;
+	/*background-color: blue;*/
+}
+
+div#skillsText {
+	/*background-color: red;*/
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+div#skillsText span {
+	font-style: italic;
+}
+
+div#skillsText ul.skillsList {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div#skillsText ul.skillsList li {
+	font-weight: bold;
+}
+
+div#skillsText ul.descriptiveList {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+div#skillsText ul.descriptiveList li {
+	font-weight: normal;
+}
+
+div#personalSkills {
+	width: 50%;
+	/*background-color: purple;*/
+	box-sizing: border-box;
+	padding: 20px;
+	border-right: 1px solid black;
+}
+
+div#technicalSkills {
+	width: 50%;
+	/*background-color: yellow;*/
+	box-sizing: border-box;
+	padding: 20px;
+	border-left: 1px solid black;
+}
+
+div#skillsBadge img {
+	display: block;
+	margin: auto;
+}
+
+div#achivemetsContainer {
+	width: 100%;
+	/*background-color: yellow;*/
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
 }
 
 /* Portafolio */
-
-div#mainPortafolioContainer
-
-{
-  width: 100%;
-  height: 100%;
-  /*background-color: blue;*/
-
-
+div#mainPortafolioContainer {
+	width: 100%;
+	height: 100%;
+	/*background-color: blue;*/
 }
-
 
 /*Education */
-div#titleeducationSection,div#titleAward
-{
-  background-color: black;
-  color: white;
-  padding: 3px;
-  text-align: center;
-
+div#titleeducationSection, div#titleAward {
+	background-color: black;
+	color: white;
+	padding: 3px;
+	text-align: center;
 }
 
-
-div#educationHistoryContent
-{
-  width: 100%;
-
+div#educationHistoryContent {
+	width: 100%;
 }
 
-div#educationHistoryContent ul
-{
-  list-style-type: none;
-  padding-left: 0px;
+div#educationHistoryContent ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
 
-
-div#educationHistoryContent table
-{
-  width: 100%;
-  border-collapse: collapse;
-  margin: 5px 0px;
-  text-align: center;
-
+div#educationHistoryContent table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 5px 0px;
+	text-align: center;
 }
 
-
-div#educationHistoryContent table td,th
-{
-  padding: 10px 0px;
-
-}
-div#educationHistoryContent table thead
-{
-  background-color: black;
-  color: white;
-
-}
-div#educationHistoryContent tr
-{
-   border-bottom: 1px solid black;
-
-
-
-}
-section.projectContent
-{
-  height: 220px;
-  width: 100%;
-  /*background-color: red;*/
-  box-sizing: border-box;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  border-bottom: 2px solid black;
-}
-div.projectImage
-{
-  width: 30%;
-  text-align: center;
-}
-div.projectDetails
-{
-
-  box-sizing: border-box;
-  padding: 10px;
+div#educationHistoryContent table td, th {
+	padding: 10px 0px;
 }
 
-div.projectDetails a
-{
-  color: black;
+div#educationHistoryContent table thead {
+	background-color: black;
+	color: white;
 }
 
-
-
-div.achivement
-{
-  width: 90%;
-  height: 50px;
-  background-color: black;
-  color: white;
-  border-bottom: 1px solid white;
-  text-align: center;
-
+div#educationHistoryContent tr {
+	border-bottom: 1px solid black;
 }
 
+section.projectContent {
+	height: 220px;
+	width: 100%;
+	/*background-color: red;*/
+	box-sizing: border-box;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 2px solid black;
+}
+
+div.projectImage {
+	width: 30%;
+	text-align: center;
+}
+
+div.projectDetails {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+div.projectDetails a {
+	color: black;
+}
+
+div.achivement {
+	width: 90%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid white;
+	text-align: center;
+}
 
 /*Experiecenc */
-
-
-div#experieceContainer
-{
-  width: 100%;
-  /*background-color: blue;*/
-
-
-
-}
-section.jobPost
-{
-
-  margin-bottom: 10px;
+div#experieceContainer {
+	width: 100%;
+	/*background-color: blue;*/
 }
 
-div.experienceHeader
-{
-
-  color: white;
-  display: flex;
-  flex-direction: column;
-
-
+section.jobPost {
+	margin-bottom: 10px;
 }
 
-div.headerFirstRow
-{
-  height: 50%;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 5px;
-  border-bottom: 1px solid white;
+div.experienceHeader {
+	color: white;
+	display: flex;
+	flex-direction: column;
 }
 
-
-div.titleJob
-{
-  width: 25%;
-  /*background-color: orange;*/
-
+div.headerFirstRow {
+	height: 50%;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 5px;
+	border-bottom: 1px solid white;
 }
 
-div.dateJob
-{
-
-  width: 25%;
-  /*background-color: blue;*/
-  text-align: right;
-}
-div.headerSecondRow
-{
-  height: 50%;
-  width: 100%;
-  color: black;
-  /*background-color: green;*/
-  box-sizing: border-box;
-  padding: 5px;
-
+div.titleJob {
+	width: 25%;
+	/*background-color: orange;*/
 }
 
-div.jobDescription
-{
-  box-sizing: border-box;
-  padding: 5px;
+div.dateJob {
+	width: 25%;
+	/*background-color: blue;*/
+	text-align: right;
+}
+
+div.headerSecondRow {
+	height: 50%;
+	width: 100%;
+	color: black;
+	/*background-color: green;*/
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+div.jobDescription {
+	box-sizing: border-box;
+	padding: 5px;
 }
 
 /*------------------------------------------------*/
-
-#cardContainer
-{
-  height: auto;
-  margin-top: 20px;
-  /*background-color: blue;*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  overflow: auto;
-
+#cardContainer {
+	height: auto;
+	margin-top: 20px;
+	/*background-color: blue;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	overflow: auto;
 }
 
-
-
-.card
-{
-  width: 220px;
-
-  height: 190px;
-  background-color: white;
-  margin: 10px 0px;
-  border-radius: 10px;
-
-
-}
-div.card button
-{
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  color: white;
-  font-size: 1rem;
-  border-radius: inherit;
+.card {
+	width: 220px;
+	height: 190px;
+	background-color: white;
+	margin: 10px 0px;
+	border-radius: 10px;
 }
 
-#mainMiddle
-{
-  /*background-color: blue;*/
-
-  min-height:1000px;
-  display: flex;
-  flex-direction: row;
+div.card button {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	font-size: 1rem;
+	border-radius: inherit;
 }
 
-
-
-#leftContainer
-{
-  width: 75%;
-  /*background-color: orange*/;
-
-}
-article#sectionsContainer
-{
-  width: 75%;
-  height: 90%;
-  /*background-color: grey;*/
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 50px;
-}
-section.content
-{
-
-  width: 100%;
-  height: 100%;
-  margin: 2px 0px;
-  box-sizing: border-box;
-  padding: 5px;
+#mainMiddle {
+	/*background-color: blue;*/
+	min-height: 1000px;
+	display: flex;
+	flex-direction: row;
 }
 
-div.contentTitle
-{
-
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  border-bottom: 2px solid black;
-  margin-bottom: 10px;
-  font-size: 24px;
-
-}
-div.contentText
-{
-  padding: 5px;
-
-}
-div.contentText img
-{
-
+#leftContainer {
+	width: 75%;
+	/*background-color: orange*/
+	;
 }
 
-div#aboutMeFirstRow
-{
-  display: flex;
-  flex-direction: row;
-
+article#sectionsContainer {
+	width: 75%;
+	height: 90%;
+	/*background-color: grey;*/
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 50px;
 }
 
-div#profileImage
-{
-  width: 60%;
+section.content {
+	width: 100%;
+	height: 100%;
+	margin: 2px 0px;
+	box-sizing: border-box;
+	padding: 5px;
 }
 
-
-
-div#shortText
-{
-  text-align: center;
-}
-#rightContainer
-{
-  width: 25%;
-  /*background-color: red;*/
-
-
-}
-aside.sideContent
-{
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  background-color: #F5F5F5;
-  color: black;
-  width: 90%;
-
-  height: 400px;
-  box-sizing: border-box;
-  padding: 5px;
-  overflow: auto;
+div.contentTitle {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+	font-size: 24px;
 }
 
-aside.sideContent p
-{
+div.contentText {
+	padding: 5px;
+}
 
-  padding: 5px 0px;
+div.contentText img {}
 
+div#aboutMeFirstRow {
+	display: flex;
+	flex-direction: row;
+}
+
+div#profileImage {
+	width: 60%;
+}
+
+div#shortText {
+	text-align: center;
+}
+
+#rightContainer {
+	width: 25%;
+	/*background-color: red;*/
+}
+
+aside.sideContent {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-color: #F5F5F5;
+	color: black;
+	width: 90%;
+	height: 400px;
+	box-sizing: border-box;
+	padding: 5px;
+	overflow: auto;
+}
+
+aside.sideContent p {
+	padding: 5px 0px;
 }
 
 /*Side details*/
-div.sideTitle
-{
-  background-color: black;
-  width: 100%;
-  font-size: 0.8rem;
-  color: white;
-  padding: 15px 0px;;
-  text-align: center;
-
-}
-div#personInformation
-{
-  box-sizing: inherit;
-  padding: 10px;
+div.sideTitle {
+	background-color: black;
+	width: 100%;
+	font-size: 0.8rem;
+	color: white;
+	padding: 15px 0px;
+	;
+	text-align: center;
 }
 
-
-div#imageSocialLink
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 10px;
+div#personInformation {
+	box-sizing: inherit;
+	padding: 10px;
 }
+
+div#imageSocialLink {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
 /*----------laste blog -----------*/
-
-div#lastestblog
-
-{
-
-  background-color:white;
-  width: 90%;
-  height: 70%;
-  margin: 10px auto;
+div#lastestblog {
+	background-color: white;
+	width: 90%;
+	height: 70%;
+	margin: 10px auto;
 }
 
-
-div#latestTitleBlog
-{
-
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 5px 0px;
+div#latestTitleBlog {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px 0px;
 }
 
-div#latestBlogButtons
-{
-
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-div#latestBlogButtons button
-{
-  width: 100px;
-  height: 30px;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
+div#latestBlogButtons {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-footer
-{
-  color: white;
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  display: block;
+div#latestBlogButtons button {
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
 }
 
+footer {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
 
 /* --------------------ADD POST ------------------*/
-body
-{
-  background-color: white;
+body {
+	background-color: white;
 }
 
-
-div#formContainerPost
-{
-  background-color: black;
-  width: 50%;
-  min-width: 450px;
-  height: 350px;
-  display: block;
-  margin: auto;
-  margin-top: 120px;
-  box-sizing: border-box;
-  padding: 5px;
-}
-div#formContentPost
-{
-  width: 90%;
-  height: 290px;
-  margin: 5px auto;
-
-
+div#formContainerPost {
+	background-color: black;
+	width: 50%;
+	min-width: 450px;
+	height: 350px;
+	display: block;
+	margin: auto;
+	margin-top: 120px;
+	box-sizing: border-box;
+	padding: 5px;
 }
 
-div#formContentPost input[type = "text"]
-{
-  display: block;
-  width: 90%;
-  height: 40px;
-  margin: auto;
-  border:  2px solid grey;
-  font-size: 15px;
-  box-sizing: border-box;
-  padding: 8px;
-
-
-
-}
-div#formContentPost textarea
-{
-  display: block;
-  margin: auto;
-  width: 90%;
-  height: 100px;
-  border:  2px solid grey;
-  font-size: 15px;
-  resize: none;
-  box-sizing: border-box;
-  padding: 8px;
-  overflow-y: auto;
-
-}
-div#titleBlogEntry
-{
-  display: block;
-  margin: 10px auto;
-  width: 50%;
-  min-width: 268px;
-  background-color: white;
-  text-align: center;
-
-
-}
-div#submitButtons
-{
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  width: 400px;
-  margin-top: 5px;
-
-}
-div#formContentPost input[type = "submit"], input[type = "button"]
-{
-  width: 150px;
-  height: 50px;
-  margin : 0px auto;
-  border: solid 1px black;
-  border-radius: 4px;
-  font-size: 15px;
-
-}
-div#errorMessage
-{
-
-  margin: auto;
-  width: 90%;
-  text-align: center;
+div#formContentPost {
+	width: 90%;
+	height: 290px;
+	margin: 5px auto;
 }
 
-p#errorText
-{
-  color: red;
+div#formContentPost input[type="text"] {
+	display: block;
+	width: 90%;
+	height: 40px;
+	margin: auto;
+	border: 2px solid grey;
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 8px;
 }
+
+div#formContentPost textarea {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 100px;
+	border: 2px solid grey;
+	font-size: 15px;
+	resize: none;
+	box-sizing: border-box;
+	padding: 8px;
+	overflow-y: auto;
+}
+
+div#titleBlogEntry {
+	display: block;
+	margin: 10px auto;
+	width: 50%;
+	min-width: 268px;
+	background-color: white;
+	text-align: center;
+}
+
+div#submitButtons {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 400px;
+	margin-top: 5px;
+}
+
+div#formContentPost input[type="submit"], input[type="button"] {
+	width: 150px;
+	height: 50px;
+	margin: 0px auto;
+	border: solid 1px black;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+div#errorMessage {
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+p#errorText {
+	color: red;
+}
+
 @media only screen and (max-width: 600px) {
-  #introContainer
-  {
-    height: 200px;
-  }
-  #mainMiddle
-  {
+	#introContainer {
+		height: 200px;
+	}
 
-    flex-direction: column;
-  }
-  #leftContainer
-  {
-    width: 100%;
-    /*background-color: orange*/;
+	#mainMiddle {
+		flex-direction: column;
+	}
 
-  }
-  article#sectionsContainer
-  {
-    width: 90%;
+	#leftContainer {
+		width: 100%;
+		/*background-color: orange*/
+		;
+	}
 
-  }
-  #rightContainer
-  {
-    width: 100%;
+	article#sectionsContainer {
+		width: 90%;
+	}
 
-  }
-
+	#rightContainer {
+		width: 100%;
+	}
 }

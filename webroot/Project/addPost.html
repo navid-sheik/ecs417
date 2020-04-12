@@ -1,80 +1,82 @@
 <!doctype html>
 
 <head>
-  <link rel="stylesheet" href="index.css" type="text/css">
-  <meta charset="utf-8">
-  <script>
-    function myFunction1() {
-      var nacid = confirm("Someyhinf djkbfejkdn");
-      if (nacid == true) {
-        document.getElementById("titlePost").value = " ";
-        document.getElementById("textPost").value = " ";
-      }
-    }
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<meta charset="utf-8">
+	<script>
+		function myFunction1() {
+			var confirmation = confirm("Would you like to reset the form ?");
+			if (confirmation == true) {
+				document.getElementById("titlePost").value = " ";
+				document.getElementById("textPost").value = " ";
+				document.getElementById("titlePost").value.length = 0;
+				document.getElementById("textPost").value.length = 0;
+			}
+		}
 
 
-    function preventDefault() {
+		function preventDefault() {
 
-      var titleText = document.forms["blogPostForm"]["titlePost"];
-      var bodyText = document.getElementById("textPost");
-      var errorMessage = document.getElementById("errorText");
-      if ((titleText.value.length == 0) && (bodyText.value.length == 0)) {
-        titleText.style.border = "5px solid #DC143C";
-        bodyText.style.border = "5px solid #DC143C";
-        errorMessage.innerHTML = "Please fill all required fields";
-        return false;
+			var titleText = document.forms["blogPostForm"]["titlePost"];
+			var bodyText = document.getElementById("textPost");
+			var errorMessage = document.getElementById("errorText");
+			if ((titleText.value.length == 0) && (bodyText.value.length == 0)) {
+				titleText.style.border = "5px solid #DC143C";
+				bodyText.style.border = "5px solid #DC143C";
+				errorMessage.innerHTML = "Please fill all required fields";
+				return false;
 
-      } else if (titleText.value.length == 0) {
-        titleText.style.border = "5px solid #DC143C";
-        bodyText.style.border = "2px solid grey";
-        errorMessage.innerHTML = "Please fill title field";
-        return false;
-      } else if (bodyText.value.length == 0) {
-        bodyText.style.border = "5px solid #DC143C";
-        titleText.style.border = "2px solid grey";
-        errorMessage.innerHTML = "Please fill textarea field";
-        return false;
-      }
-    }
-  </script>
+			} else if (titleText.value.length == 0) {
+				titleText.style.border = "5px solid #DC143C";
+				bodyText.style.border = "2px solid grey";
+				errorMessage.innerHTML = "Please fill title field";
+				return false;
+			} else if (bodyText.value.length == 0) {
+				bodyText.style.border = "5px solid #DC143C";
+				titleText.style.border = "2px solid grey";
+				errorMessage.innerHTML = "Please fill textarea field";
+				return false;
+			}
+		}
+	</script>
 
 </head>
 
 <body>
-  <header>
-    <div id='title'>
-      <span>My Portafolio</span>
-    </div>
-    <nav>
-      <ul>
-        <li> <a href='index.php'> Home </a> </li>
-        <li> <a href='viewBlog.php'> Blog </a> </li>
-        <li> <a href='index.php'> Details</a> </li>
-        <li> <a href='index.php'> My Portfolio</a> </li>
-      </ul>
-    </nav>
-  </header>
+	<header>
+		<div id='title'>
+			<span>My Portafolio</span>
+		</div>
+		<nav>
+			<ul>
+				<li> <a href='index.php'> Home </a> </li>
+				<li> <a href='viewBlog.php'> Blog </a> </li>
+				<li> <a href='index.php'> Details</a> </li>
+				<li> <a href='index.php'> My Portfolio</a> </li>
+			</ul>
+		</nav>
+	</header>
 
-  <div id="formContainerPost">
-    <div id="formContentPost">
-      <div id="titleBlogEntry">
-        <h1>CREATE A POST</h1>
-      </div>
-      <form action="addPost.php" method="get" name="blogPostForm" id="postSomething" autocomplete="off">
-        <input type="text" placeholder="Title" name="titlePost" id="titlePost"><br>
-        <textarea placeholder="Enter somethin new" name="contentPost" id="textPost"></textarea><br>
-        <div id="submitButtons">
-          <input type="submit" name="submitPost" onclick="return preventDefault()">
-          <input type="button" name="resetPost" value="Clear" onclick="myFunction1()">
-        </div>
-      </form>
-    </div>
+	<div id="formContainerPost">
+		<div id="formContentPost">
+			<div id="titleBlogEntry">
+				<h1>CREATE A POST</h1>
+			</div>
+			<form action="addPost.php" method="get" name="blogPostForm" id="postSomething" autocomplete="off">
+				<input type="text" placeholder="Title" name="titlePost" id="titlePost"><br>
+				<textarea placeholder="Enter somethin new" name="contentPost" id="textPost"></textarea><br>
+				<div id="submitButtons">
+					<input type="submit" name="submitPost" onclick="return preventDefault()">
+					<input type="button" name="resetPost" value="Clear" onclick="myFunction1()">
+				</div>
+			</form>
+		</div>
 
 
-    <div id="errorMessage">
-      <p id="errorText"></p>
-    </div>
-  </div>
+		<div id="errorMessage">
+			<p id="errorText"></p>
+		</div>
+	</div>
 
 </body>
 

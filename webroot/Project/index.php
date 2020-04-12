@@ -13,28 +13,22 @@ include 'conn.inc.php';
   <meta name="viewport" content="initial-scale=1">
 
   <script type="text/javascript">
-    function showHideGeneral(id) {
+    function showHideGeneral(id)
+      {
 
       var aboutMeElement = document.getElementById("AboutMeSection");
       var portafolioElement = document.getElementById("portafolioSection");
       var experienceElement = document.getElementById("experienceSection");
       var skillsElement = document.getElementById("skillsSection");
       var educationElement = document.getElementById("educationSection");
-
       let sectionsArray = [aboutMeElement, portafolioElement, experienceElement, skillsElement, educationElement];
-
-      console.log("Somethin" + sectionsArray.length);
       for (var i = 0; i < sectionsArray.length; i++) {
-        console.log("Somethin" + sectionsArray[i]);
         if (sectionsArray[i].style.display = "block")
           sectionsArray[i].style.display = "none";
       }
       document.getElementById(id).style.display = "block";
-    }
+      }
 
-    function hide(arrayPassed) {
-      var i;
-    }
 
 
     function redictToPostForm() {
@@ -441,7 +435,7 @@ include 'conn.inc.php';
               <div id="mainPortafolioContainer">
                 <section class="projectContent">
                   <div class="projectImage">
-                    <img src="noImage.jpg" width="200px" height="200px">
+                    <img src="food.png" width="200px" height="200px">
                   </div>
                   <div class="projectDetails">
                     <h3> Food Tracker Reviewer</h3>

@@ -1,4 +1,5 @@
 <?php
+//This method will allow the  main user to add a post to the blog 
 session_start();
 include 'conn.inc.php';
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
@@ -24,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
            else
            {
               echo "Error: " . $sql . "<br>" . $conn->error;
-            
+
            }
     }
   }else{header('Location: index.php');
