@@ -1,5 +1,5 @@
 
-}
+
 
 img {
 	max-width: 100%;
@@ -202,7 +202,8 @@ div#skillsText span {
 div#skillsText ul.skillsList {
 	list-style-type: none;
 	padding-left: 0;
-	margin-left: 15px;
+	descriptiveList
+
 
 }
 
@@ -272,6 +273,8 @@ div#educationHistoryContent {
 div#educationHistoryContent ul {
 	list-style-type: none;
 	padding-left: 0px;
+
+
 }
 
 div#educationHistoryContent table {
@@ -381,6 +384,10 @@ div.jobDescription {
 	padding: 5px;
 }
 
+div.jobDescription ul
+{
+	margin-left: 15px;
+}
 /*------------------------------------------------*/
 #cardContainer {
 	height: auto;
