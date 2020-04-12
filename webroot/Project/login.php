@@ -24,7 +24,7 @@ if (isset($_POST['login']))
            $_SESSION["admin"] = $usernameLogged;
            $_SESSION["email"] = $email;
            $_SESSION["userId"] = $id;
-           header('Location: addPost.php');
+           header('Location: addPost.html');
            exit();
          }else
          {
