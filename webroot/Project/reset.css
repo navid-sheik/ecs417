@@ -2,7 +2,7 @@ html, body, div, span,
 h1, h2, p, a, img, ul, li, form, input,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, footer, header,
-nav, section, button {
+nav, section {
 	vertical-align: baseline;
 	font-size: 100%;
 	padding: 0;
