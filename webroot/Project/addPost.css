@@ -52,7 +52,11 @@ div#titleBlogEntry {
 	text-align: center;
 }
 
+div#titleBlogEntry
+{
 
+	font-size: 1.5em;
+}
 
 div#submitButtons {
 	display: flex;

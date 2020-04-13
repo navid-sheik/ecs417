@@ -1,11 +1,5 @@
 
 
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 #mainflexHome {
 	display: flex;
 	flex-direction: column;
@@ -13,6 +7,17 @@ img {
 	/*background-color: grey;*/
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+button
+{
+	font-size: 50%;
+}
+p{
+	vertical-align: top;
+}
 /*Element of the main fles : header, main, footer*/
 header {
 	height: 40px;
@@ -298,7 +303,7 @@ div#educationHistoryContent tr {
 }
 
 section.projectContent {
-	height: 220px;
+	height: 240px;
 	width: 100%;
 	/*background-color: red;*/
 	box-sizing: border-box;
@@ -505,9 +510,12 @@ div.sideTitle {
 	width: 100%;
 	font-size: 0.8rem;
 	color: white;
-	padding: 15px 0px;
-	;
+	padding: 15px 0px;;
 	text-align: center;
+}
+div.sideTitle h1
+{
+	font-size: 0.8rem;
 }
 
 div#personInformation {

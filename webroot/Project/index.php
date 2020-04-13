@@ -452,7 +452,7 @@ include 'conn.inc.php';
                       <li>Category: Food </li>
                     </ul>
                     <br>
-                    <a href="viewblog.php">Find Out More</a>
+
                   </div>
                 </section>
                 <!----------Project 1---------->
@@ -473,7 +473,7 @@ include 'conn.inc.php';
                       <li>Category: Business </li>
                     </ul>
                     <br>
-                    <a href="viewblog.php">Find Out More</a>
+
                   </div>
                 </section>
                 <!----------Project 2---------->
@@ -494,7 +494,7 @@ include 'conn.inc.php';
                       <li> Category: Finance</li>
                     </ul>
                     <br>
-                    <a href="viewblog.php">Find Out More</a>
+                  
                   </div>
                 </section>
               </div>
