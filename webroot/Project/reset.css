@@ -1,5 +1,7 @@
 
-*
+body,div,form,input,span,article,button,i
+p,section,aside,figure,figcaption,img,footer,ul,li,nav
+a,header,table,thead,tr,th,td,tbody,footer
 {
   vertical-align: baseline;
   font-size: 100%;
