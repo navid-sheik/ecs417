@@ -4,7 +4,7 @@ p,section,aside,figure,figcaption,img,footer,ul,li,nav
 a,header,table,thead,tr,th,td,tbody,footer
 {
   vertical-align: baseline;
-  font-size: 100%;
+  font-size: 100%
   padding : 0;
   margin: 0;
   border: 0;

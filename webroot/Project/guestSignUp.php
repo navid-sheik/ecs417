@@ -34,7 +34,7 @@
 
   <div id= "guestContainer" >
       <div id = "guestField">
-      <button type="button" onclick="document.location.href='login.php'"> Return Log In</button>
+      <button type="button" onclick="document.location.href='login.html'"> Return Log In</button>
       </div>
   </div>
 
