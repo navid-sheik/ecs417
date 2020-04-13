@@ -268,7 +268,7 @@ aside.side {
 	box-sizing: border-box;
 	padding: 5px;
 	position: relative;
-	overflow: auto;
+	overflow-y: auto;
 }
 
 aside.welcomeUserSide {
@@ -289,8 +289,12 @@ aside.welcomeUserSide {
 div#titleAboutMeBlog {
 	background-color: black;
 	color: white;
-	padding: 3px;
+	padding: 15px 0px;
 	text-align: center;
+}
+div#titleAboutMeBlog
+{
+	font-size: 1.2rem;
 }
 
 div#profileImageBlog {

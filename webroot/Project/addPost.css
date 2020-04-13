@@ -51,6 +51,10 @@ div#titleBlogEntry {
 	background-color: white;
 	text-align: center;
 }
+div#titleBlogEntry
+{
+	font-size: 1.2rem;
+}
 
 div#titleBlogEntry
 {

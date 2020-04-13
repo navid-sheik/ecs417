@@ -516,14 +516,13 @@ aside.sideContent p {
 div.sideTitle {
 	background-color: black;
 	width: 100%;
-
 	color: white;
-	padding: 15px 0px;;
+	padding: 15px 0px;
 	text-align: center;
 }
 div.sideTitle h1
 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 div#personInformation {
