@@ -302,6 +302,10 @@ div#educationHistoryContent tr {
 	border-bottom: 1px solid black;
 }
 
+div#awardContent ul
+{
+	padding-left: 40px;
+}
 section.projectContent {
 	height: 240px;
 	width: 100%;
