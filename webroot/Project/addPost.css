@@ -51,12 +51,9 @@ div#titleBlogEntry {
 	background-color: white;
 	text-align: center;
 }
-div#titleBlogEntry
-{
-	font-size: 1.2rem;
-}
 
-div#titleBlogEntry
+
+div#titleBlogEntry h1
 {
 
 	font-size: 1.5em;
