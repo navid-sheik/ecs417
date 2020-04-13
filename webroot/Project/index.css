@@ -13,10 +13,12 @@ img {
 }
 button
 {
-	font-size: 50%;
+	font-size: 80%;
 }
 p{
-	vertical-align: top;
+	margin-block-start: 0em;
+  margin-block-end: 0em;
+
 }
 /*Element of the main fles : header, main, footer*/
 header {
@@ -326,7 +328,9 @@ div.projectDetails {
 	box-sizing: border-box;
 	padding: 10px;
 }
-
+div.projectDetails ul {
+	padding-left: 40px;
+}
 div.projectDetails a {
 	color: black;
 }
@@ -501,7 +505,7 @@ aside.sideContent {
 	height: 400px;
 	box-sizing: border-box;
 	padding: 5px;
-	overflow: auto;
+	overflow-y: auto;
 }
 
 aside.sideContent p {
@@ -512,14 +516,14 @@ aside.sideContent p {
 div.sideTitle {
 	background-color: black;
 	width: 100%;
-	font-size: 0.8rem;
+
 	color: white;
 	padding: 15px 0px;;
 	text-align: center;
 }
 div.sideTitle h1
 {
-	font-size: 0.8rem;
+	font-size: 1.5rem;
 }
 
 div#personInformation {
