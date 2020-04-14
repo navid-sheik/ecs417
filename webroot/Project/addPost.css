@@ -53,10 +53,8 @@ div#titleBlogEntry {
 }
 
 
-div#titleBlogEntry h1
-{
-
-	font-size: 30px;
+div#titleBlogEntry h1{
+	font-size: 2em;
 }
 
 div#submitButtons {
