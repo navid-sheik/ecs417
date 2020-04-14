@@ -8,6 +8,15 @@ header {
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+button
+{
+	font-size: 80%;
+}
+p{
+	margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
 
 div#main {
 	display: flex;
