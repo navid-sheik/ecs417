@@ -50,12 +50,11 @@ div#titleBlogEntry {
 	width: 50%;
 	background-color: white;
 	text-align: center;
-}
-
-
-div#titleBlogEntry h1{
 	font-size: 2em;
 }
+
+
+
 
 div#submitButtons {
 	display: flex;
