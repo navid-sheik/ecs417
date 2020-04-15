@@ -680,12 +680,9 @@ p#errorText {
 		text-align: center;
 	}
 
-
 	#introContainer {
 		height: 200px;
-
 	}
-	
 
 	#mainMiddle {
 		flex-direction: column;
