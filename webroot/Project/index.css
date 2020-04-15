@@ -662,6 +662,10 @@ p#errorText {
 
 @media only screen and (max-width: 600px) {
 
+header
+{
+	height: auto;
+}
 	#title
 	{
 		display: block;
@@ -676,6 +680,7 @@ p#errorText {
 	nav ul li
 	{
 		display: block;
+		width: 100%;
 	}
 
 
