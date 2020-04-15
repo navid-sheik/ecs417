@@ -661,6 +661,25 @@ p#errorText {
 }
 
 @media only screen and (max-width: 600px) {
+
+	#title
+	{
+		display: block;
+		width: 100%;
+	}
+	nav
+	{
+		display: block;
+		width: 100%;
+	}
+
+	nav ul li
+	{
+		display: block;
+	}
+
+
+
 	#introContainer {
 		height: 200px;
 	}
